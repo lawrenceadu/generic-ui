@@ -1,0 +1,16 @@
+// colors
+$white: #fff;
+$black: #000;
+
+:root {
+    // fonts
+    // --font-family: "WorkSans", sans-serif;
+
+    --white: #{$white};
+    --black: #{$black};
+}
+
+$localColors: (
+    "white": var(--white),
+    "black": var(--black),
+);
