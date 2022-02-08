@@ -5,5 +5,6 @@ export { default as ErrorBoundary } from "./ErrorBoundary";
 export { default as Link } from "./Link";
 export { default as Modal } from "./Modal";
 export { default as Field } from "./Field";
+export { default as Notify } from "./Notify";
 export { default as Select } from "./Select";
 export { default as Tabs } from "./Tabs";

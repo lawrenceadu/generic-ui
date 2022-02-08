@@ -1,13 +1,17 @@
 import React from "react";
 
-import { Field } from "generic-ui";
+import { Toast, Button } from "generic-ui";
 import "generic-ui/dist/index.css";
 
 const App = () => {
+  const handleToast = () => {
+    return Toast({ body: "Hello world" });
+  };
+
   return (
     <div>
       <p>Hello world</p>
-      <Field name="name" label="Name" />
+      <Button onClick={handleToast}>Toast</Button>
     </div>
   );
 };
